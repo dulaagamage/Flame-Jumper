@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2D Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body onkeydown="key(event);">
+  <div class="guide" id="guide">
+  <h1>🏃‍♂️ Welcome to Flame Jumper!</h1>
+  <p>🔥 Avoid the flames and rack up points!</p>
+  <ul>
+    <li><strong>Enter</strong> - Start the game</li>
+    <li><strong>Space</strong> - Jump over flames</li>
+    <li><strong>Try not to die 😵</strong></li>
+  </ul>
+  <button class="btn" onclick="startGame()">Start Game</button>
+</div>
+
+  <div class="b" id="b">
+    <img class="boy" id="boy" src="Run (1).png" alt="Running boy"/>
+    <p class="score" id="score">0</p>
+  </div>
+
+  <div class="end" id="end">
+    <div>Game Over</div>
+    <div>Your Score</div>
+    <div id="endscore">0</div>
+
+    <button class="btn" onclick="re();">Try Again</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

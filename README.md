@@ -1,8 +1,17 @@
-# 🕹️ Flame Jumper – A Simple 2D Endless Runner Game
+<div align="center">
 
-Flame Jumper is a browser-based 2D endless runner where you control a running character jumping over flames to score points. Built with pure **HTML**, **CSS**, and **JavaScript**, this lightweight game features smooth animations, intuitive controls, and immersive sound effects — all front-end, no backend required.
+  <h1>🔥 Flame Jumper – A Simple 2D Endless Runner Game 🔥</h1>
 
-> 🚀 “Run fast, jump smart, and beat the flames!”
+  <p>Run fast, jump smart, and beat the flames!</p>
+
+  <div>
+    <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/-Web_Audio_API-000000?style=for-the-badge&logo=webaudio&logoColor=white" alt="Web Audio API" />
+  </div>
+
+</div>
 
 ---
 
@@ -11,7 +20,8 @@ Flame Jumper is a browser-based 2D endless runner where you control a running ch
 - [Overview](#-overview)  
 - [Features](#-features)  
 - [How to Play](#-how-to-play)  
-- [Tech Stack](#-tech-stack)  
+- [Tech Stack](#-tech-stack)
+- [Prerequisites](#-prerequisites)
 - [Setup Instructions](#-setup-instructions)  
 - [What I Learned](#-what-i-learned)  
 - [Author](#-author)  
@@ -56,6 +66,16 @@ Flame Jumper challenges players to dodge approaching flame obstacles by jumping 
 - **CSS3** – Styling, responsive design, and animations  
 - **JavaScript (ES6)** – Game logic, event handling, and audio control  
 - **Audio API** – Sound effects synced with gameplay  
+
+---
+
+## 🛠️ Prerequisites
+
+Before you dive in, make sure your machine is all set up with:
+
+- **A modern web browser** (Chrome, Firefox, Edge, Safari) — to run the game smoothly  
+- **Python 3** (optional) — if you want to spin up a quick local server using the built-in HTTP server  
+- **VS Code Live Server extension** (optional) — for seamless one-click local hosting  
 
 ---
 
